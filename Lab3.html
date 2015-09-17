@@ -1,0 +1,53 @@
+<html>
+<head>
+<title> Lab 3 </title>
+<script src="scripts/processing.js"></script>
+<script type="text/processing" data-processing-target="mycanvas">
+
+void setup(){
+
+size( 250, 250 );
+background(0,0,0);
+frameRate( 30 );
+
+text("Steven Wong!",120,120 );
+stroke(255,255,255);
+line(0,0,100,100);
+strokeWeight(10);
+fill(0,0,255);
+stroke(0,0,255);
+line(200,200,0,200);
+text("Hi",50,50);
+//rainbow
+strokeWeight(1);
+stroke(255,0,0);
+line(0,5,100,5);
+stroke(255,165,0);
+line(0,6,100,6);
+stroke(255,255,0);
+line(0,7,100,7);
+stroke(0,255,0);
+line(0,8,100,8);
+stroke(000,000,255);
+line(0,9,100,9);
+stroke(165,000,165);
+line(0,10,100,10);
+strokeCap(SQUARE);
+strokeWeight(10);
+line(220,0,220,100);
+}
+
+
+void draw()
+{
+
+}
+
+</script>
+<canvas id="mycanvas"></canvas>
+</head>
+
+<body>
+
+</body>
+</html>
